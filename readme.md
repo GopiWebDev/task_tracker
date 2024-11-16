@@ -37,3 +37,11 @@ Challenge from [Roadmap.sh](https://roadmap.sh/projects/task-tracker)
    ```bash
    node app.js add "Buy groceries"
    ```
+2. Updating an Existing Task:
+   ```bash
+   node app.js update <task_id> "New task description"
+   ```
+   Example:
+   ```bash
+   node app.js update 1 "Buy groceries and cook dinner"
+   ```
