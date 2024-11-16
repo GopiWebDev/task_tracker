@@ -45,3 +45,44 @@ Challenge from [Roadmap.sh](https://roadmap.sh/projects/task-tracker)
    ```bash
    node app.js update 1 "Buy groceries and cook dinner"
    ```
+3. Deleting a Task:
+   ```bash
+   node app.js delete <task_id>
+   ```
+   Example:
+   ```bash
+   node app.js delete 1
+   ```
+4. Marking a Task as In Progress:
+   ```bash
+   node app.js mark-in-progress <task_id>
+   ```
+   Example:
+   ```bash
+   node app.js mark-in-progress 1
+   ```
+5. Marking a Task as Done:
+   ```bash
+   node app.js mark-done <task_id>
+   ```
+   Example:
+   ```bash
+   node app.js mark-done 1
+   ```
+6. Listing All Tasks:
+   ```bash
+   node app.js list
+   ```
+7. Listing Tasks by Status:
+   1. Done Tasks:
+   ```bash
+   node app.js list done
+   ```
+   2. Todo Tasks:
+   ```bash
+   node app.js list todo
+   ```
+   3. In Progress Tasks:
+   ```bash
+   node app.js list in-progress
+   ```
